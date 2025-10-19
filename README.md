@@ -94,5 +94,3 @@ gcc larnFileInAdv.c -o diskSim
 
 ---
 
-## 📄 License
-MIT License
