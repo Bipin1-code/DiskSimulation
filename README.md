@@ -1,34 +1,29 @@
-DiskSimulation
-Overview
+# 🖴 DiskSimulation
 
-DiskSimulation is a C project that simulates how a real disk works using a file as the virtual storage medium. It provides low-level disk operations such as block allocation, reading, writing, and managing disk structures. This project aims to closely mimic how data is stored and accessed on a real disk.
+## Overview
+`DiskSimulation` simulates how a real disk works using a file as virtual storage.  
+It demonstrates **block allocation, reading, writing, and file management**, mimicking real disk behavior.
 
-Features
+---
 
-Simulates a real disk using a file as storage
+## Features
+- 🗂 Virtual disk using a file  
+- 📦 Fixed-size block allocation  
+- 📤 Block-level read/write operations  
+- 📝 File metadata tracking  
+- 🎓 Educational tool for understanding disk internals  
 
-Supports fixed-size block allocation and management
+---
 
-Implements reading and writing at the block level
+## Disk Parameters
+- **Disk Size:** Configurable (e.g., 4 KB)  
+- **Block Size:** Configurable (e.g., 512 bytes)  
+- **Block Count:** Calculated automatically  
 
-Tracks files and metadata inside blocks
+---
 
-Educational tool for understanding disk internals
-
-Disk Parameters
-
-Disk size: Configurable (example: 4 KB)
-
-Block size: Configurable (example: 512 bytes)
-
-Block count: Calculated based on disk size and block size
-
-Efficient simulation of disk read/write operations using standard file I/O
-
-Sample Output
-
-The current version of the program saves files in memory (soon to be persisted to a file acting as a whole disk):
-
+## Sample Output
+```
 Block:0  [1:1:MetaFile:-1]
 DiskInfo :
  {7:2}
@@ -50,44 +45,54 @@ Block:6  [1:0:SecondFIle.txt:-1]
 Content: cies
 Block:7  [0:0::-1]
 Content: 
+```
+> ⚠️ Currently stores files in memory. Persistence and operations like search, read, update, delete will be added soon.
 
+---
 
-This version is currently able to save files in memory. Soon, it will persist data using a file that acts as a whole disk. Additional features such as search, read, update, and delete for files stored in blocks will be implemented to fully simulate disk behavior.
+## 🧩 Disk Layout Example
+```
+🔹 [Block0: MetaFile] ──> Tracks all file info
+🔹 [Block1: FirstFile.txt] ──> Data chunk 1
+🔹 [Block2: FirstFile.txt] ──> Data chunk 2
+🔹 [Block3: FirstFile.txt] ──> Data chunk 3
+🔹 [Block4: SecondFile.txt] ──> Data chunk 1
+🔹 [Block5: SecondFile.txt] ──> Data chunk 2
+🔹 [Block6: SecondFile.txt] ──> Data chunk 3
+🔹 [Block7: Free/Unused] ➖ Empty block
+```
+> Visual representation of how files are split across disk blocks.
 
-Usage
-Prerequisites
+---
 
-GCC or any standard C compiler
-
-Basic knowledge of C and file I/O
-
-Compilation
+### Compilation
+```bash
 gcc larnFileInAdv.c -o diskSim
+```
 
-Execution
+### Execution
+```bash
 ./diskSim
+```
+> Modify disk parameters in the code to experiment with different configurations.
 
+---
 
-The program demonstrates block-level file storage and management.
+## 🎯 Learning Goals
+- Understand **how disks store and manage data**  
+- Learn **block-level I/O operations**  
+- Explore **file-based disk simulation**  
+- Gain insights into **file systems**
 
-Modify parameters in the code (disk size, block size) to experiment with different configurations.
+---
 
-Learning Goals
+## 🔮 Future Improvements
+- Persist disk data to a file 💾  
+- Implement **file search, read, update, delete** 🔍  
+- Fully simulate a **real disk with block management** 🖴  
+- Add **metadata and allocation table structures** 📑  
 
-Understand how physical disks store and manage data
+---
 
-Learn block-level I/O operations
-
-Practice file-based simulation of low-level storage concepts
-
-Gain insights into the inner workings of file systems
-
-Future Improvements
-
-Persist disk data to a real file acting as a disk
-
-Implement file search, read, update, and delete operations
-
-Fully simulate a real disk with block-based file management
-
-Add support for file metadata and allocation table structures
+## 📄 License
+MIT License
