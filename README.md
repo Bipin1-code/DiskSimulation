@@ -9,23 +9,25 @@
 - **Search File**: Quickly locate files by name.
 
 ## 📥 Repository
-<!-- Copy Me -->
+```
 git clone https://github.com/Bipin1-code/DiskSimulation.git
+```
 
 ## ⚙️ Usage
 
 1. **Clone the repository:**
-<!-- Copy Me -->
+```
 git clone https://github.com/Bipin1-code/DiskSimulation.git
 cd DiskSimulation
-
+```
 2. **Compile the program:**
-<!-- Copy Me -->
-```gcc -o disksim main.c
 
+```gcc -o disksim main.c
+```
 3. **Run the simulation:**
-<!-- Copy Me -->
-```./disksim
+```
+./disksim
+```
 
 ## 📋 Available Operations
 
@@ -35,8 +37,8 @@ Once running, the program provides a menu with these options:
 3. **Exit Application** - Quit the program
 
 ## 🖥️ Sample Output
-
-```File testBinary.bin open successfully.
+```
+File testBinary.bin open successfully.
 ==============Menu==================
 =======Press 1. Create File ========
 =======Press 2. Search File ========
@@ -59,9 +61,10 @@ vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, j
 mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. 
 Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, 
 feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam 
-
+```
 Disk status or Logs:
-```Block:0  [1:1:MetaFile:-1]
+```
+Block:0  [1:1:MetaFile:-1]
 DiskInfo : {7:2}
 FileInfo : {FirstFile.txt:1:1235}
 FileInfo : {SecondFile.txt:4:912}
@@ -79,7 +82,7 @@ Block:6  [1:0:SecondFile.txt:-1]
 Content: cies nisi. Nam eget
 Block:7  [0:0::-1]
 Content:
-
+```
 ## 🛠️ Technical Details
 
 - **Language**: C
