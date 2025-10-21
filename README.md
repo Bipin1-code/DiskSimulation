@@ -21,8 +21,8 @@ git clone https://github.com/Bipin1-code/DiskSimulation.git
 cd DiskSimulation
 ```
 2. **Compile the program:**
-
-```gcc -o disksim main.c
+```
+gcc -o disksim main.c
 ```
 3. **Run the simulation:**
 ```
