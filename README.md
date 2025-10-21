@@ -21,11 +21,11 @@ cd DiskSimulation
 
 2. **Compile the program:**
 <!-- Copy Me -->
-gcc -o disksim main.c
+```gcc -o disksim main.c
 
 3. **Run the simulation:**
 <!-- Copy Me -->
-./disksim
+```./disksim
 
 ## 📋 Available Operations
 
@@ -36,7 +36,7 @@ Once running, the program provides a menu with these options:
 
 ## 🖥️ Sample Output
 
-File testBinary.bin open successfully.
+```File testBinary.bin open successfully.
 ==============Menu==================
 =======Press 1. Create File ========
 =======Press 2. Search File ========
@@ -61,7 +61,7 @@ Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lor
 feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam 
 
 Disk status or Logs:
-Block:0  [1:1:MetaFile:-1]
+```Block:0  [1:1:MetaFile:-1]
 DiskInfo : {7:2}
 FileInfo : {FirstFile.txt:1:1235}
 FileInfo : {SecondFile.txt:4:912}
