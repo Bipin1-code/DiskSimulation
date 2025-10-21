@@ -8,16 +8,23 @@
 - **Read File**: Retrieve and display the contents of stored files.  
 - **Search File**: Quickly locate files by name.
 
+## 📥 Repository
+<!-- Copy Me -->
+git clone https://github.com/Bipin1-code/DiskSimulation.git
+
 ## ⚙️ Usage
 
-1. Clone the repository:
+1. **Clone the repository:**
+<!-- Copy Me -->
 git clone https://github.com/Bipin1-code/DiskSimulation.git
 cd DiskSimulation
 
-2. Compile the program:
+2. **Compile the program:**
+<!-- Copy Me -->
 gcc -o disksim main.c
 
-3. Run the simulation:
+3. **Run the simulation:**
+<!-- Copy Me -->
 ./disksim
 
 ## 📋 Available Operations
@@ -45,7 +52,13 @@ Do you wanna open it?
 For 'Yes'/'No' Press 1 or -1 respectively.
 1
 Content:
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
+pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
+vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede 
+mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. 
+Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, 
+feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam 
 
 Disk status or Logs:
 Block:0  [1:1:MetaFile:-1]
@@ -85,5 +98,7 @@ This simulation helps understand:
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to fork this repository and submit pull requests for any improvements.
+
+---
 
 **Note**: This is an educational tool. For production file systems, use established solutions like ext4, NTFS, or FAT32.
