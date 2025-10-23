@@ -5,6 +5,9 @@
 It demonstrates **block allocation, reading, writing, and file management**, mimicking real disk behavior.
 
 ---
+## Version
+[*New Version*](https://github.com/Bipin1-code/DiskSimulation/tree/DkS_v0.1) 
+---
 
 ## Features
 - 🗂 Virtual disk using a file  
