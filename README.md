@@ -6,8 +6,8 @@ It demonstrates **block allocation, reading, writing, and file management**, mim
 
 ---
 ## Version
--- Available :
-  -- [## *https://github.com/Bipin1-code/DiskSimulation/tree/DkS_v0.1*](https://github.com/Bipin1-code/DiskSimulation/tree/DkS_v0.1) 
+- Available :
+  - [## *https://github.com/Bipin1-code/DiskSimulation/tree/DkS_v0.1*](https://github.com/Bipin1-code/DiskSimulation/tree/DkS_v0.1) 
 ---
 ## Features
 - 🗂 Virtual disk using a file  
